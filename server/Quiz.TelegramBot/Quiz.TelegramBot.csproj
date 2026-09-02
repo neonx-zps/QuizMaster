@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Quiz.Application/Quiz.Application.csproj" />
+    <ProjectReference Include="../Quiz.Infrastructure.Server/Quiz.Infrastructure.Server.csproj" />
+  </ItemGroup>
+</Project>
